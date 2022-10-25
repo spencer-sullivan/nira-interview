@@ -3,13 +3,4 @@
 load_from:
   - python_file:
       relative_path: pipeline/repositories.py
-      attribute: caiso_pipeline
-  - python_file:
-      relative_path: pipeline/repositories.py
-      attribute: pjm_pipeline
-  - python_file:
-      relative_path: pipeline/repositories.py
-      attribute: miso_pipeline
-  - python_file:
-      relative_path: pipeline/repositories.py
-      attribute: non_region_specific_pipeline
+      attribute: nira_interview_repository
