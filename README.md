@@ -1,5 +1,7 @@
 ## Get setup to develop for the take home assignment.
 
+First, fork the nira-interview repo into your own repo.
+
 1. <b>Install Pyenv to switch between different Python versions.</b> <br>
    https://github.com/pyenv/pyenv, windows: https://github.com/pyenv-win/pyenv-win
 2. <b>Install the python version specified in /nira-interview/.python-version using Pyenv.</b> <code> pyenv install 3.9.6 </code>
@@ -58,6 +60,7 @@ A few constraints:
 
 Final deliverable:
 
+- Send over a link to the forked repo you made the modifications in.
 - Inside raw_buses_to_run.py, comment out line 4, and uncomment line 5. This will switch the raw buses csv to a new csv. You can go look in the CSVs, the only difference is one additional bus in the new one.
 - There should be only one new file inside the /output folder that contains all the buses results for the buses defined in new_raw_buses.csv.
 - Any new ops you need should be added to interview_job.py and also be implemented in their own file in the /ops folder.
