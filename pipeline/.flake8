@@ -1,0 +1,10 @@
+[flake8]
+max-line-length = 88
+extend-ignore = E203, E501
+exclude =
+    # These should match those in the .gitignore file
+    .venv/
+    *.pyc
+    *.egg-info
+    tmp*
+    .DS_Store
