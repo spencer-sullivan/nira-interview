@@ -55,12 +55,12 @@ Your task is to figure out how to construct this pipeline so that we don't have 
 A few constraints:
 
 - You can tweak <code>get_mw_available_for_each_bus_very_slow</code> for testing purposes, but you are not allowed to change the code inside this file in the final submission. Don't get clever and just decrease the sleep() call to one second.
-- We are only ever adding new buses, you do not need to worry about buses being removed.
+- We are only ever adding new buses, you do not need to worry about buses being removed. 
 - For any given bus, the values calculated in <code>get_mw_available_for_each_bus_very_slow</code> will always be exactly the same (you can see this in the code).
 
 Final deliverable:
 
 - Send over a link to the forked repo you made the modifications in.
-- Inside <code>raw_buses_to_run.py</code>, comment out line 4, and uncomment line 5. This will switch the raw buses csv to a new csv. You can go look in the CSVs, the only difference is one additional bus in the new one.
-- There should be only one new file inside the /output folder that contains all the buses results for the buses defined in <code>new_raw_buses.csv</code>.
+- Inside <code>raw_buses_to_run.py</code>, comment out line 4, and uncomment line 5. This will switch the raw buses csv to a new csv. You can go look in the CSVs, the only difference is one additional bus in the new one. Remember, there will only ever be bus additions in the new csv.
+- There should be only one new file inside the /output folder that contains all the buses results for the buses defined in <code>new_raw_buses.csv</code>. You should delete the original csv in the output folder that the repo started with.
 - Any new ops you need should be added to <code>interview_job.py</code> and also be implemented in their own file in the /ops folder.
